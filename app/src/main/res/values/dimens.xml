@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="logo_padding">0dp</dimen>
+    <dimen name="company_text_size">22sp</dimen>
+    <dimen name="margin_above_company_name">12dp</dimen>
+    <dimen name="margin_below_company_name">5dp</dimen>
+    <dimen name="body_text_size">16sp</dimen>
+    <dimen name="margin_between_each_horizontal_linear_layout">2dp</dimen>
+    <dimen name="margin_between_icons_and_text">5dp</dimen>
+    <dimen name="margin_between_each_icon">36dp</dimen>
+    <dimen name="icon_size">24dp</dimen>
+    <dimen name="large_icon_size">40dp</dimen>
+</resources>
+
+

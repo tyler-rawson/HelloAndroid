@@ -1,8 +1,11 @@
 <resources>
     <string name="app_name">HelloAndroid</string>
-    <string name="textViewUdacity">Udacity</string>
-    <string name="textViewAddress">2465 Latham St., Mountain View, CA 94043</string>
-    <string name="textViewPhone">650-555-5555</string>
-    <string name="imageViewContentDescription">Udacity Logo</string>
-    <string name="website">www.udacity.com</string>
+    <string name="textViewCompany">Udacity</string>
+    <string name="textViewAddress">2465 Latham St, Mountain View, CA 94043</string>
+    <string name="textViewPhone">(650) 555-5555</string>
+    <string name="textViewWebsite">www.udacity.com</string>
+    <string name="logoContentDescription">Udacity Logo: Never Stop Learning.</string>
+    <string name="mapIconContentDescription">Address</string>
+    <string name="phoneIconContentDescription">Phone Number</string>
+    <string name="webIconContentDescription">Web address</string>
 </resources>
