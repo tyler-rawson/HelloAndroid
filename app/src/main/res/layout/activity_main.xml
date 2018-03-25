@@ -1,57 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.example.tyler.helloandroid.MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center_vertical"
-    android:padding="@dimen/logo_padding"
     android:background="#FAFAFA"
     android:orientation="vertical"
-    >
+    android:padding="@dimen/logo_padding"
+    tools:context="com.example.tyler.helloandroid.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero_dp"
-        android:gravity="center"
-        android:layout_weight="3">
+        android:layout_weight="3"
+        android:gravity="center">
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/logoContentDescription"
             android:scaleType="centerCrop"
-            android:src="@drawable/never_stop_learning" />
+            android:src="@mipmap/never_stop_learning" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="@dimen/zero_dp"
-        android:paddingTop="@dimen/margin_above_company_name"
         android:layout_weight="5"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingTop="@dimen/margin_above_company_name">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="@dimen/zero_dp"
+            android:layout_gravity="center"
             android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_gravity="center">
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_below_company_name"
                 android:text="@string/textViewCompany"
-                android:textStyle="bold"
                 android:textSize="@dimen/company_text_size"
-                android:layout_marginBottom="@dimen/margin_below_company_name" />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/zero_dp"
                 android:layout_margin="@dimen/margin_between_each_horizontal_linear_layout"
-                android:gravity="center_vertical"
                 android:layout_weight="1"
+                android:gravity="center_vertical"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -64,18 +63,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:autoLink="map"
                     android:text="@string/textViewAddress"
-                    android:textSize="@dimen/body_text_size"
-                    android:autoLink="map" />
+                    android:textSize="@dimen/body_text_size" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/zero_dp"
                 android:layout_margin="@dimen/margin_between_each_horizontal_linear_layout"
-                android:orientation="horizontal"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:layout_weight="1" >
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="@dimen/icon_size"
@@ -87,18 +86,18 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:autoLink="phone"
                     android:text="@string/textViewPhone"
-                    android:textSize="@dimen/body_text_size"
-                    android:autoLink="phone" />
+                    android:textSize="@dimen/body_text_size" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/zero_dp"
                 android:layout_margin="@dimen/margin_between_each_horizontal_linear_layout"
+                android:layout_weight="1"
                 android:gravity="center_vertical"
-                android:orientation="horizontal"
-                android:layout_weight="1" >
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="@dimen/icon_size"
@@ -110,36 +109,36 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="@dimen/body_text_size"
                     android:autoLink="web"
-                    android:text="@string/textViewWebsite" />
+                    android:text="@string/textViewWebsite"
+                    android:textSize="@dimen/body_text_size" />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/zero_dp"
-                android:layout_weight="1"
                 android:layout_marginTop="@dimen/margin_between_each_horizontal_linear_layout"
-                android:orientation="horizontal"
-                android:gravity="fill_vertical|center_horizontal" >
+                android:layout_weight="1"
+                android:gravity="fill_vertical|center_horizontal"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="@dimen/large_icon_size"
                     android:layout_height="@dimen/large_icon_size"
-                    android:src="@drawable/twitter_large"
-                    android:layout_margin="@dimen/margin_between_each_icon" />
+                    android:layout_margin="@dimen/margin_between_each_icon"
+                    android:src="@drawable/twitter_large" />
 
                 <ImageView
                     android:layout_width="@dimen/large_icon_size"
                     android:layout_height="@dimen/large_icon_size"
-                    android:src="@drawable/facebook_large"
-                    android:layout_margin="@dimen/margin_between_each_icon" />
+                    android:layout_margin="@dimen/margin_between_each_icon"
+                    android:src="@drawable/facebook_large" />
 
                 <ImageView
                     android:layout_width="@dimen/large_icon_size"
                     android:layout_height="@dimen/large_icon_size"
-                    android:src="@drawable/youtube_large"
-                    android:layout_margin="@dimen/margin_between_each_icon" />
+                    android:layout_margin="@dimen/margin_between_each_icon"
+                    android:src="@drawable/youtube_large" />
             </LinearLayout>
 
         </LinearLayout>
